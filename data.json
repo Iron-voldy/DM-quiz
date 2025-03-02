@@ -1,0 +1,1641 @@
+{
+  "quizzes": [
+    {
+      "title": "Introduction to Data Communication",
+      "icon": "./assets/images/icon-communication.svg",
+      "questions": [
+        {
+          "question": "What is data communication?",
+          "options": [
+            "The process of exchanging or sharing data",
+            "The process of building computer systems",
+            "Programming a computer to process data",
+            "Analyzing network traffic"
+          ],
+          "answer": "The process of exchanging or sharing data",
+          "explanation": "Data communication involves exchanging information between entities using data."
+        },
+        {
+          "question": "Which of the following is an example of analog data?",
+          "options": [
+            "A digital document",
+            "Voice",
+            "A binary code",
+            "An image file"
+          ],
+          "answer": "Voice",
+          "explanation": "Analog data is continuous, such as voice or sound."
+        },
+        {
+          "question": "What are the five components of a data communication system?",
+          "options": [
+            "Sender, Message, Receiver, Transmission Medium, Protocols",
+            "Input, Output, Processing, Storage, Network",
+            "Router, Switch, Cable, Signal, Frame",
+            "Data, Sender, Receiver, Protocol, Application"
+          ],
+          "answer": "Sender, Message, Receiver, Transmission Medium, Protocols",
+          "explanation": "These are the key components for data communication."
+        },
+        {
+          "question": "What is the role of a transmission medium?",
+          "options": [
+            "To send the message",
+            "To define protocols",
+            "To carry the signal from sender to receiver",
+            "To store data"
+          ],
+          "answer": "To carry the signal from sender to receiver",
+          "explanation": "The transmission medium is the path used for transmitting signals between devices."
+        },
+        {
+          "question": "Which of the following is NOT a type of data flow?",
+          "options": [
+            "Simplex",
+            "Duplex",
+            "Triplex",
+            "Half-Duplex"
+          ],
+          "answer": "Triplex",
+          "explanation": "Data flow can be simplex, half-duplex, or full-duplex."
+        },
+        {
+          "question": "Which of the following is an example of a half-duplex communication system?",
+          "options": [
+            "Keyboard and monitor",
+            "Walkie-talkie",
+            "Telephone",
+            "Email"
+          ],
+          "answer": "Walkie-talkie",
+          "explanation": "In half-duplex, communication can happen in both directions but not at the same time, like in walkie-talkies."
+        },
+        {
+          "question": "What is a network?",
+          "options": [
+            "A collection of connected devices capable of communication",
+            "A single computer system",
+            "A type of data communication protocol",
+            "A method for storing data"
+          ],
+          "answer": "A collection of connected devices capable of communication",
+          "explanation": "A network is an interconnected set of devices."
+        },
+        {
+          "question": "Which network topology involves a central hub?",
+          "options": [
+            "Star topology",
+            "Bus topology",
+            "Ring topology",
+            "Mesh topology"
+          ],
+          "answer": "Star topology",
+          "explanation": "In star topology, all devices are connected to a central hub."
+        },
+        {
+          "question": "Which of the following is an example of a wide area network (WAN)?",
+          "options": [
+            "A home network",
+            "An office network",
+            "The Internet",
+            "A personal area network"
+          ],
+          "answer": "The Internet",
+          "explanation": "The Internet is an example of a wide area network that covers a large geographical area."
+        },
+        {
+          "question": "What is circuit switching?",
+          "options": [
+            "Switching data packets through different routes",
+            "Establishing a dedicated path for communication",
+            "A method of error correction",
+            "Sending data via wireless networks"
+          ],
+          "answer": "Establishing a dedicated path for communication",
+          "explanation": "Circuit switching establishes a dedicated connection for the duration of the communication."
+        },
+        {
+          "question": "What is packet switching?",
+          "options": [
+            "Switching between multiple network protocols",
+            "Sending data in small packets over a network",
+            "Establishing a fixed path for data transmission",
+            "Transmitting data via wireless signals"
+          ],
+          "answer": "Sending data in small packets over a network",
+          "explanation": "Packet switching sends data in small packets, each of which may take a different path to the destination."
+        },
+        {
+          "question": "Which of the following is NOT a performance metric in data communication?",
+          "options": [
+            "Throughput",
+            "Delay",
+            "Loss",
+            "Capacity"
+          ],
+          "answer": "Capacity",
+          "explanation": "Performance metrics include throughput, delay, and loss."
+        },
+        {
+          "question": "What causes packet loss in a network?",
+          "options": [
+            "High throughput",
+            "Buffer overflow",
+            "Slow transmission medium",
+            "Incorrect protocol"
+          ],
+          "answer": "Buffer overflow",
+          "explanation": "Packet loss occurs when the buffer overflows and cannot handle more packets."
+        },
+        {
+          "question": "Which network extent covers a metropolitan area?",
+          "options": [
+            "PAN",
+            "LAN",
+            "MAN",
+            "WAN"
+          ],
+          "answer": "MAN",
+          "explanation": "A Metropolitan Area Network (MAN) covers a city."
+        },
+        {
+          "question": "What is a bus topology?",
+          "options": [
+            "A network where all devices are connected to a central hub",
+            "A network where all devices are connected to a common linear transmission medium",
+            "A network where each device is connected in a circular fashion",
+            "A network where each device is connected to every other device"
+          ],
+          "answer": "A network where all devices are connected to a common linear transmission medium",
+          "explanation": "In a bus topology, all devices share a common communication line."
+        },
+        {
+          "question": "What happens during the queueing process in packet switching?",
+          "options": [
+            "Packets are transmitted directly without delay",
+            "Packets are stored briefly in a buffer before being transmitted",
+            "Packets are discarded immediately",
+            "Packets are converted to analog signals"
+          ],
+          "answer": "Packets are stored briefly in a buffer before being transmitted",
+          "explanation": "In packet switching, packets may be stored in a buffer before being sent to the next node."
+        },
+        {
+          "question": "What is the primary difference between analog and digital data?",
+          "options": [
+            "Analog data is continuous, digital data is discrete",
+            "Analog data is faster",
+            "Digital data is less accurate",
+            "Analog data is easier to process"
+          ],
+          "answer": "Analog data is continuous, digital data is discrete",
+          "explanation": "Analog data varies continuously, while digital data is represented in 1s and 0s."
+        },
+        {
+          "question": "What is the Internet?",
+          "options": [
+            "A single large computer system",
+            "A collection of interconnected networks",
+            "A set of wireless networks",
+            "A method for storing data"
+          ],
+          "answer": "A collection of interconnected networks",
+          "explanation": "The Internet is a global system of interconnected networks."
+        },
+        {
+          "question": "Which of the following is an example of a full-duplex communication system?",
+          "options": [
+            "Keyboard and monitor",
+            "Walkie-talkie",
+            "Telephone",
+            "Television"
+          ],
+          "answer": "Telephone",
+          "explanation": "In full-duplex systems like telephones, both parties can communicate simultaneously."
+        },
+        {
+          "question": "What does throughput measure in data communication?",
+          "options": [
+            "The number of devices connected to a network",
+            "The delay between sending and receiving data",
+            "The rate at which data is successfully transmitted",
+            "The size of the data packets"
+          ],
+          "answer": "The rate at which data is successfully transmitted",
+          "explanation": "Throughput refers to the rate at which data is sent from sender to receiver."
+        }
+      ]
+    },
+    {
+      "title": "Protocol Architecture",
+      "icon": "./assets/images/icon-protocol-architecture.svg",
+      "questions": [
+        {
+          "question": "What is a protocol?",
+          "options": [
+            "A set of hardware devices",
+            "A set of rules governing communication",
+            "A data transmission medium",
+            "A network topology"
+          ],
+          "answer": "A set of rules governing communication",
+          "explanation": "Protocols define the format and order of messages sent and received over a network."
+        },
+        {
+          "question": "Why are protocols necessary in networking?",
+          "options": [
+            "To ensure that devices can communicate effectively",
+            "To physically connect devices",
+            "To store data",
+            "To analyze network traffic"
+          ],
+          "answer": "To ensure that devices can communicate effectively",
+          "explanation": "Protocols define the rules for communication, ensuring that devices understand each other."
+        },
+        {
+          "question": "What does encapsulation mean in networking?",
+          "options": [
+            "Adding headers and trailers to data",
+            "Removing headers from data",
+            "Compressing data",
+            "Encrypting data"
+          ],
+          "answer": "Adding headers and trailers to data",
+          "explanation": "Encapsulation involves adding headers (and sometimes trailers) to data as it moves through the layers."
+        },
+        {
+          "question": "What is the TCP/IP protocol stack?",
+          "options": [
+            "A 5-layer network architecture",
+            "A 7-layer network architecture",
+            "A single-layer protocol",
+            "A hardware device for network routing"
+          ],
+          "answer": "A 5-layer network architecture",
+          "explanation": "The TCP/IP stack consists of five layers: Application, Transport, Network, Link, and Physical."
+        },
+        {
+          "question": "Which model has 7 layers?",
+          "options": [
+            "TCP/IP",
+            "ISO/OSI",
+            "HTTP",
+            "Wi-Fi"
+          ],
+          "answer": "ISO/OSI",
+          "explanation": "The ISO/OSI reference model has 7 layers compared to the 5 layers of the TCP/IP stack."
+        },
+        {
+          "question": "What does the transport layer do?",
+          "options": [
+            "Routes data from one device to another",
+            "Transfers data between network applications",
+            "Provides the physical connection between devices",
+            "Converts signals into binary data"
+          ],
+          "answer": "Transfers data between network applications",
+          "explanation": "The transport layer manages data transfer between processes or applications."
+        },
+        {
+          "question": "Which protocol is used for connection-oriented transport?",
+          "options": [
+            "TCP",
+            "UDP",
+            "IP",
+            "HTTP"
+          ],
+          "answer": "TCP",
+          "explanation": "TCP provides connection-oriented, reliable communication between network devices."
+        },
+        {
+          "question": "Which layer is responsible for routing data?",
+          "options": [
+            "Physical layer",
+            "Network layer",
+            "Transport layer",
+            "Application layer"
+          ],
+          "answer": "Network layer",
+          "explanation": "The network layer is responsible for routing data packets between different networks."
+        },
+        {
+          "question": "What is the purpose of the link layer?",
+          "options": [
+            "Transmitting data over the network",
+            "Managing direct communication between neighboring devices",
+            "Storing data",
+            "Analyzing network performance"
+          ],
+          "answer": "Managing direct communication between neighboring devices",
+          "explanation": "The link layer is responsible for data transfer between devices directly connected on the same network."
+        },
+        {
+          "question": "What is a protocol data unit (PDU)?",
+          "options": [
+            "A physical device",
+            "A message exchanged between layers in a protocol",
+            "A network topology",
+            "A storage unit"
+          ],
+          "answer": "A message exchanged between layers in a protocol",
+          "explanation": "A PDU is the data unit exchanged at different layers of the protocol stack."
+        },
+        {
+          "question": "Which of the following is NOT part of the TCP/IP stack?",
+          "options": [
+            "Application layer",
+            "Transport layer",
+            "Session layer",
+            "Network layer"
+          ],
+          "answer": "Session layer",
+          "explanation": "The TCP/IP stack does not have a session layer, which is part of the OSI model."
+        },
+        {
+          "question": "What does the physical layer do?",
+          "options": [
+            "Transmits raw bits over a communication channel",
+            "Manages end-to-end data delivery",
+            "Routes data packets",
+            "Converts data into signals"
+          ],
+          "answer": "Transmits raw bits over a communication channel",
+          "explanation": "The physical layer transmits the individual bits over the communication medium."
+        },
+        {
+          "question": "Which protocol is responsible for file transfer?",
+          "options": [
+            "FTP",
+            "TCP",
+            "UDP",
+            "SMTP"
+          ],
+          "answer": "FTP",
+          "explanation": "FTP (File Transfer Protocol) is used for transferring files between network devices."
+        },
+        {
+          "question": "Which protocol resolves human-readable addresses to IP addresses?",
+          "options": [
+            "DNS",
+            "TCP",
+            "UDP",
+            "HTTP"
+          ],
+          "answer": "DNS",
+          "explanation": "DNS (Domain Name System) translates domain names into IP addresses."
+        },
+        {
+          "question": "What does de-encapsulation mean?",
+          "options": [
+            "Adding headers to data",
+            "Removing headers from data",
+            "Encrypting data",
+            "Compressing data"
+          ],
+          "answer": "Removing headers from data",
+          "explanation": "De-encapsulation involves removing headers added by each protocol layer at the destination."
+        },
+        {
+          "question": "What does IP stand for in networking?",
+          "options": [
+            "Internet Protocol",
+            "Internal Program",
+            "Information Process",
+            "Interface Protocol"
+          ],
+          "answer": "Internet Protocol",
+          "explanation": "IP stands for Internet Protocol, which is responsible for addressing and routing packets in the network layer."
+        },
+        {
+          "question": "Which layer is responsible for converting data into signals for transmission?",
+          "options": [
+            "Physical layer",
+            "Link layer",
+            "Transport layer",
+            "Application layer"
+          ],
+          "answer": "Physical layer",
+          "explanation": "The physical layer converts data into signals for transmission over the communication medium."
+        },
+        {
+          "question": "What is the difference between TCP and UDP?",
+          "options": [
+            "TCP is connection-oriented, while UDP is connectionless",
+            "TCP is faster than UDP",
+            "TCP is used for web browsing, UDP for file transfers",
+            "There is no difference"
+          ],
+          "answer": "TCP is connection-oriented, while UDP is connectionless",
+          "explanation": "TCP establishes a connection for reliable communication, while UDP is connectionless and less reliable."
+        },
+        {
+          "question": "What does a protocol stack refer to?",
+          "options": [
+            "The hardware devices in a network",
+            "A set of protocols working together",
+            "A method of storing data",
+            "A type of network topology"
+          ],
+          "answer": "A set of protocols working together",
+          "explanation": "A protocol stack is a group of protocols that work together to manage network communication."
+        },
+        {
+          "question": "What is the job of the network layer in TCP/IP?",
+          "options": [
+            "To route data packets between hosts",
+            "To handle application requests",
+            "To manage encryption",
+            "To provide error checking"
+          ],
+          "answer": "To route data packets between hosts",
+          "explanation": "The network layer handles routing of packets across different networks in TCP/IP."
+        }
+      ]
+    },
+    {
+      "title": "Physical Layer",
+      "icon": "./assets/images/icon-physical-layer.svg",
+      "questions": [
+        {
+          "question": "What is the primary function of the physical layer in the TCP/IP model?",
+          "options": [
+            "Routing data",
+            "Physical transmission of data",
+            "Error checking",
+            "Data encryption"
+          ],
+          "answer": "Physical transmission of data",
+          "explanation": "The physical layer handles the transmission of raw bits over a physical medium."
+        },
+        {
+          "question": "Which of the following is an example of a physical layer component?",
+          "options": [
+            "Router",
+            "Network Interface Card (NIC)",
+            "Firewall",
+            "Operating System"
+          ],
+          "answer": "Network Interface Card (NIC)",
+          "explanation": "The NIC connects devices to the network and is a physical layer component."
+        },
+        {
+          "question": "What are the two types of signals used in communication?",
+          "options": [
+            "Digital and binary",
+            "Analog and digital",
+            "Electrical and optical",
+            "Binary and electromagnetic"
+          ],
+          "answer": "Analog and digital",
+          "explanation": "Communication signals can be either analog (continuous) or digital (discrete)."
+        },
+        {
+          "question": "Which of the following is an example of an analog signal?",
+          "options": [
+            "A binary stream",
+            "Voice converted into an electrical signal",
+            "Data transmitted over fiber optics",
+            "Digital voltage pulses"
+          ],
+          "answer": "Voice converted into an electrical signal",
+          "explanation": "Analog signals vary continuously in time, such as voice signals."
+        },
+        {
+          "question": "What type of modulation uses two different amplitude levels to represent 1 and 0?",
+          "options": [
+            "Amplitude modulation (ASK)",
+            "Frequency modulation (BFSK)",
+            "Phase modulation (BPSK)",
+            "Digital encoding"
+          ],
+          "answer": "Amplitude modulation (ASK)",
+          "explanation": "ASK represents binary data using different amplitude levels."
+        },
+        {
+          "question": "How are binary 0 and 1 represented in Manchester encoding?",
+          "options": [
+            "0V and 5V",
+            "High to low and low to high transitions",
+            "Two different phases",
+            "Two different frequencies"
+          ],
+          "answer": "High to low and low to high transitions",
+          "explanation": "In Manchester encoding, 0 is represented by a high-to-low transition, and 1 by a low-to-high transition."
+        },
+        {
+          "question": "What is attenuation?",
+          "options": [
+            "The process of increasing signal strength",
+            "The weakening of a signal as it travels over a medium",
+            "The interference between signals",
+            "The modulation of a signal"
+          ],
+          "answer": "The weakening of a signal as it travels over a medium",
+          "explanation": "Attenuation refers to the reduction in signal strength as it propagates through a medium."
+        },
+        {
+          "question": "Which type of cabling is most commonly used in modern networks?",
+          "options": [
+            "Coaxial cable",
+            "Unshielded Twisted Pair (UTP)",
+            "Fiber-optic cable",
+            "Shielded Twisted Pair (STP)"
+          ],
+          "answer": "Unshielded Twisted Pair (UTP)",
+          "explanation": "UTP is widely used in network installations due to its low cost and ease of installation."
+        },
+        {
+          "question": "What is crosstalk in twisted pair cables?",
+          "options": [
+            "Interference from external devices",
+            "A signal coupling from one pair of wires to another",
+            "Data corruption during transmission",
+            "Signal amplification between wires"
+          ],
+          "answer": "A signal coupling from one pair of wires to another",
+          "explanation": "Crosstalk occurs when signals from one wire interfere with those in another wire."
+        },
+        {
+          "question": "What type of fiber optic cable is used for long-distance applications?",
+          "options": [
+            "Multimode fiber",
+            "Single-mode fiber",
+            "Coaxial cable",
+            "UTP cable"
+          ],
+          "answer": "Single-mode fiber",
+          "explanation": "Single-mode fiber is used for long-distance communication, as it supports higher bandwidth and lower signal attenuation."
+        },
+        {
+          "question": "Which of the following is a key advantage of fiber-optic cabling?",
+          "options": [
+            "Low cost",
+            "Immunity to electromagnetic interference (EMI)",
+            "Ease of installation",
+            "Short distance transmission"
+          ],
+          "answer": "Immunity to electromagnetic interference (EMI)",
+          "explanation": "Fiber-optic cables are immune to EMI and can transmit data over longer distances with less signal loss."
+        },
+        {
+          "question": "What is the primary function of the modulation process?",
+          "options": [
+            "Encoding binary data into optical signals",
+            "Converting an analog signal into digital form",
+            "Changing the characteristics of a carrier signal",
+            "Decoding received data"
+          ],
+          "answer": "Changing the characteristics of a carrier signal",
+          "explanation": "Modulation changes a signal’s amplitude, frequency, or phase to represent data."
+        },
+        {
+          "question": "What is a common disadvantage of copper cabling?",
+          "options": [
+            "High data transmission rates",
+            "High susceptibility to interference",
+            "Resistance to attenuation",
+            "Immunity to electromagnetic interference"
+          ],
+          "answer": "High susceptibility to interference",
+          "explanation": "Copper cabling is more susceptible to interference compared to fiber-optic cables."
+        },
+        {
+          "question": "Which of the following represents a binary 0 in unipolar encoding?",
+          "options": [
+            "0V",
+            "-5V",
+            "+5V",
+            "High voltage"
+          ],
+          "answer": "0V",
+          "explanation": "In unipolar encoding, binary 0 is represented by 0V, while binary 1 is represented by a positive voltage."
+        },
+        {
+          "question": "What is the typical range of frequencies used by Wi-Fi networks in the 5 GHz band?",
+          "options": [
+            "500 MHz to 1 GHz",
+            "2.402 GHz to 2.480 GHz",
+            "5.150 GHz to 5.825 GHz",
+            "10 GHz to 15 GHz"
+          ],
+          "answer": "5.150 GHz to 5.825 GHz",
+          "explanation": "Wi-Fi networks using the 5 GHz band operate in the frequency range of 5.150 GHz to 5.825 GHz."
+        },
+        {
+          "question": "What does the term 'attenuation' refer to in wireless communication?",
+          "options": [
+            "The increase in signal strength over distance",
+            "The delay caused by transmission media",
+            "The reduction in signal strength due to distance",
+            "The reflection of signals"
+          ],
+          "answer": "The reduction in signal strength due to distance",
+          "explanation": "Attenuation in wireless communication refers to the weakening of a signal as it travels over distance."
+        },
+        {
+          "question": "What is the purpose of an antenna in wireless communication?",
+          "options": [
+            "Converting electromagnetic signals into binary data",
+            "Radiating and collecting electromagnetic energy",
+            "Modulating data signals",
+            "Providing encryption for data transmission"
+          ],
+          "answer": "Radiating and collecting electromagnetic energy",
+          "explanation": "An antenna is responsible for radiating electromagnetic energy and collecting incoming signals."
+        },
+        {
+          "question": "What is the function of a transceiver in infrared communication?",
+          "options": [
+            "Modulating infrared light for data transmission",
+            "Converting analog signals into binary",
+            "Modulating radio frequencies",
+            "Converting electrical signals into light"
+          ],
+          "answer": "Modulating infrared light for data transmission",
+          "explanation": "Transceivers modulate noncoherent infrared light to transmit data in infrared communication."
+        },
+        {
+          "question": "Which of the following media types is completely immune to electromagnetic interference (EMI)?",
+          "options": [
+            "UTP cable",
+            "Coaxial cable",
+            "Fiber-optic cable",
+            "STP cable"
+          ],
+          "answer": "Fiber-optic cable",
+          "explanation": "Fiber-optic cables are immune to EMI because they transmit light rather than electrical signals."
+        },
+        {
+          "question": "Which of the following is a key factor affecting the data rate and transmission distance?",
+          "options": [
+            "Bandwidth",
+            "Signal strength",
+            "Cable type",
+            "Number of devices connected"
+          ],
+          "answer": "Bandwidth",
+          "explanation": "Higher bandwidth allows for higher data rates, and factors like attenuation and interference affect transmission distance."
+        }
+      ]
+    },
+    {
+      "title": "Link Layer (LAN)",
+      "icon": "./assets/images/icon-link-layer.svg",
+      "questions": [
+        {
+          "question": "What is the dominant wired LAN technology used today?",
+          "options": [
+            "Wi-Fi",
+            "Ethernet",
+            "Bluetooth",
+            "Token Ring"
+          ],
+          "answer": "Ethernet",
+          "explanation": "Ethernet is the most widely used wired LAN technology."
+        },
+        {
+          "question": "What is a MAC address?",
+          "options": [
+            "A 48-bit unique identifier assigned to network interfaces",
+            "A 32-bit IP address",
+            "A routing protocol",
+            "A switch"
+          ],
+          "answer": "A 48-bit unique identifier assigned to network interfaces",
+          "explanation": "A MAC address is a 48-bit identifier used at the data link layer."
+        },
+        {
+          "question": "What does CSMA/CD stand for?",
+          "options": [
+            "Carrier Sense Multiple Access with Collision Detection",
+            "Carrier Sense Medium Allocation",
+            "Control Sense Multiple Access",
+            "Collision Sense Multiple Address"
+          ],
+          "answer": "Carrier Sense Multiple Access with Collision Detection",
+          "explanation": "CSMA/CD is the protocol used in Ethernet networks to detect and handle collisions."
+        },
+        {
+          "question": "What is the function of a switch in an Ethernet network?",
+          "options": [
+            "To route data between networks",
+            "To forward Ethernet frames based on MAC addresses",
+            "To assign IP addresses",
+            "To connect wireless devices"
+          ],
+          "answer": "To forward Ethernet frames based on MAC addresses",
+          "explanation": "Switches forward frames by looking at MAC addresses and deciding which port to forward to."
+        },
+        {
+          "question": "What is an Ethernet frame?",
+          "options": [
+            "A unit of data at the network layer",
+            "A unit of data at the data link layer",
+            "A wireless signal",
+            "A type of router"
+          ],
+          "answer": "A unit of data at the data link layer",
+          "explanation": "An Ethernet frame is the basic data unit used at the data link layer."
+        },
+        {
+          "question": "What does the preamble in an Ethernet frame do?",
+          "options": [
+            "Provides error correction",
+            "Synchronizes sender and receiver clock rates",
+            "Indicates the type of higher-layer protocol",
+            "Stores the destination MAC address"
+          ],
+          "answer": "Synchronizes sender and receiver clock rates",
+          "explanation": "The preamble helps the receiver to synchronize its clock with the sender."
+        },
+        {
+          "question": "What is VLAN?",
+          "options": [
+            "Virtual Local Area Network",
+            "Very Large Area Network",
+            "Virtual Link Access Network",
+            "Variable LAN Address"
+          ],
+          "answer": "Virtual Local Area Network",
+          "explanation": "VLAN allows the creation of logical LANs within a physical network."
+        },
+        {
+          "question": "How does a switch learn MAC addresses?",
+          "options": [
+            "It listens to all traffic and records MAC addresses",
+            "It assigns MAC addresses to devices",
+            "It uses IP addresses",
+            "It broadcasts to all connected devices"
+          ],
+          "answer": "It listens to all traffic and records MAC addresses",
+          "explanation": "Switches learn the MAC addresses of devices by observing the source addresses of incoming frames."
+        },
+        {
+          "question": "What happens when an Ethernet frame with an unknown destination MAC address is received?",
+          "options": [
+            "The switch drops the frame",
+            "The switch forwards the frame to all ports (floods)",
+            "The switch sends an error message",
+            "The frame is discarded"
+          ],
+          "answer": "The switch forwards the frame to all ports (floods)",
+          "explanation": "If the destination MAC address is unknown, the switch forwards the frame to all ports."
+        },
+        {
+          "question": "What is the role of CSMA/CA in wireless networks?",
+          "options": [
+            "To detect collisions",
+            "To avoid collisions by using small reservation packets",
+            "To assign IP addresses",
+            "To send acknowledgments"
+          ],
+          "answer": "To avoid collisions by using small reservation packets",
+          "explanation": "CSMA/CA avoids collisions in wireless networks by reserving the channel before transmission."
+        },
+        {
+          "question": "What is the broadcast domain?",
+          "options": [
+            "A network area where all devices receive broadcast frames",
+            "A network area where no devices receive broadcast frames",
+            "A domain where only unicast messages are sent",
+            "A domain restricted to a single IP range"
+          ],
+          "answer": "A network area where all devices receive broadcast frames",
+          "explanation": "A broadcast domain is a network segment where all devices receive broadcasts."
+        },
+        {
+          "question": "What is the purpose of the cyclic redundancy check (CRC) in an Ethernet frame?",
+          "options": [
+            "To encode the frame",
+            "To check for transmission errors",
+            "To address the destination",
+            "To indicate the type of payload"
+          ],
+          "answer": "To check for transmission errors",
+          "explanation": "The CRC is used to detect errors in the frame during transmission."
+        },
+        {
+          "question": "Which mode does a NIC operate in when it can both send and receive data simultaneously?",
+          "options": [
+            "Half-duplex mode",
+            "Full-duplex mode",
+            "Broadcast mode",
+            "Collision mode"
+          ],
+          "answer": "Full-duplex mode",
+          "explanation": "In full-duplex mode, a NIC can send and receive data at the same time."
+        },
+        {
+          "question": "What is a collision domain?",
+          "options": [
+            "A network segment where data collisions can occur",
+            "A network segment where only one device can communicate",
+            "A domain where IP addresses collide",
+            "A domain where only switches can communicate"
+          ],
+          "answer": "A network segment where data collisions can occur",
+          "explanation": "A collision domain is a segment where data from two devices can collide."
+        },
+        {
+          "question": "What is the role of a Network Interface Card (NIC)?",
+          "options": [
+            "To connect a device to a network",
+            "To assign IP addresses",
+            "To route traffic",
+            "To secure data"
+          ],
+          "answer": "To connect a device to a network",
+          "explanation": "A NIC is a hardware component that allows devices to connect to a network."
+        },
+        {
+          "question": "What protocol does Ethernet use to avoid collisions?",
+          "options": [
+            "CSMA/CA",
+            "CSMA/CD",
+            "ARP",
+            "DHCP"
+          ],
+          "answer": "CSMA/CD",
+          "explanation": "Ethernet uses Carrier Sense Multiple Access with Collision Detection (CSMA/CD) to avoid and handle collisions."
+        },
+        {
+          "question": "What is the function of a router in VLAN networks?",
+          "options": [
+            "To forward frames within the same VLAN",
+            "To forward data between different VLANs",
+            "To assign MAC addresses",
+            "To switch frames"
+          ],
+          "answer": "To forward data between different VLANs",
+          "explanation": "Routers forward data between different VLANs, while switches handle data within VLANs."
+        },
+        {
+          "question": "What happens when two devices in the same collision domain transmit data simultaneously?",
+          "options": [
+            "Both transmissions are discarded",
+            "Both transmissions collide, and the data must be retransmitted",
+            "The switch prioritizes one transmission",
+            "The NIC handles the collision and continues transmission"
+          ],
+          "answer": "Both transmissions collide, and the data must be retransmitted",
+          "explanation": "Collisions occur when two devices transmit simultaneously, requiring retransmission."
+        },
+        {
+          "question": "Which of the following is NOT part of the Ethernet frame?",
+          "options": [
+            "Preamble",
+            "Destination MAC address",
+            "Source IP address",
+            "Cyclic Redundancy Check (CRC)"
+          ],
+          "answer": "Source IP address",
+          "explanation": "The Ethernet frame contains MAC addresses, not IP addresses."
+        },
+        {
+          "question": "What is the primary function of an Ethernet switch?",
+          "options": [
+            "To route packets between networks",
+            "To forward frames based on MAC addresses",
+            "To assign IP addresses to devices",
+            "To detect and prevent collisions"
+          ],
+          "answer": "To forward frames based on MAC addresses",
+          "explanation": "An Ethernet switch forwards frames based on the destination MAC address."
+        },
+        {
+          "question": "What happens if a frame is sent to a MAC address that the switch does not know?",
+          "options": [
+            "The switch drops the frame",
+            "The switch sends an ARP request",
+            "The switch floods the frame to all ports except the one it was received on",
+            "The switch forwards the frame to the default gateway"
+          ],
+          "answer": "The switch floods the frame to all ports except the one it was received on",
+          "explanation": "If the destination MAC address is unknown, the switch floods the frame."
+        },
+        {
+          "question": "What is the purpose of VLANs?",
+          "options": [
+            "To reduce broadcast traffic by dividing a network into smaller segments",
+            "To route data between different networks",
+            "To create collision domains",
+            "To assign MAC addresses"
+          ],
+          "answer": "To reduce broadcast traffic by dividing a network into smaller segments",
+          "explanation": "VLANs are used to logically separate a network, reducing the size of broadcast domains."
+        },
+        {
+          "question": "What technology is commonly used in wireless LANs (WLANs)?",
+          "options": [
+            "802.11",
+            "802.3",
+            "Ethernet",
+            "Token Ring"
+          ],
+          "answer": "802.11",
+          "explanation": "802.11 is the IEEE standard for wireless LANs, commonly known as Wi-Fi."
+        },
+        {
+          "question": "What does the term 'full-duplex' mean?",
+          "options": [
+            "Data can be sent and received simultaneously",
+            "Data is only sent one way",
+            "Data is transmitted without collisions",
+            "Data transmission is half-speed"
+          ],
+          "answer": "Data can be sent and received simultaneously",
+          "explanation": "In full-duplex mode, data can be transmitted and received at the same time."
+        },
+        {
+          "question": "What does the 802.1Q standard define?",
+          "options": [
+            "Wireless LAN standards",
+            "VLAN tagging",
+            "Ethernet frame structure",
+            "Routing protocols"
+          ],
+          "answer": "VLAN tagging",
+          "explanation": "802.1Q defines the standards for VLAN tagging in Ethernet frames."
+        },
+        {
+          "question": "Which protocol is responsible for assigning IP addresses dynamically in a network?",
+          "options": [
+            "DNS",
+            "DHCP",
+            "ARP",
+            "ICMP"
+          ],
+          "answer": "DHCP",
+          "explanation": "The Dynamic Host Configuration Protocol (DHCP) dynamically assigns IP addresses to devices."
+        },
+        {
+          "question": "How does a switch reduce the likelihood of collisions?",
+          "options": [
+            "By buffering frames and only forwarding when the destination is idle",
+            "By operating in half-duplex mode",
+            "By broadcasting all frames",
+            "By using IP addresses to forward traffic"
+          ],
+          "answer": "By buffering frames and only forwarding when the destination is idle",
+          "explanation": "Switches buffer frames and use dedicated collision domains to prevent collisions."
+        },
+        {
+          "question": "What is the key difference between a hub and a switch?",
+          "options": [
+            "A hub broadcasts to all ports, while a switch forwards based on MAC addresses",
+            "A hub operates at the network layer, while a switch operates at the physical layer",
+            "A switch requires IP addresses, while a hub does not",
+            "A hub is faster than a switch"
+          ],
+          "answer": "A hub broadcasts to all ports, while a switch forwards based on MAC addresses",
+          "explanation": "A hub sends data to all ports, while a switch forwards it to the correct port based on the MAC address."
+        }
+      ]
+    },
+    {
+      "title": "Network Layer - Part 01",
+      "icon": "./assets/images/icon-network-layer.svg",
+      "questions": [
+        {
+          "question": "What is the main function of the network layer?",
+          "options": [
+            "Deliver transport layer segments from the sender to the receiver",
+            "Manage physical transmission of data",
+            "Encrypt network traffic",
+            "Manage local area networks"
+          ],
+          "answer": "Deliver transport layer segments from the sender to the receiver",
+          "explanation": "The network layer delivers transport segments from the sending host to the receiving host."
+        },
+        {
+          "question": "What does the term 'forwarding' mean in the context of the network layer?",
+          "options": [
+            "Planning a route from source to destination",
+            "Moving packets from a router's input link to the appropriate output link",
+            "Encrypting data before transmission",
+            "Addressing devices in a network"
+          ],
+          "answer": "Moving packets from a router's input link to the appropriate output link",
+          "explanation": "Forwarding refers to moving packets from the router's input to the correct output link."
+        },
+        {
+          "question": "What is a datagram in networking?",
+          "options": [
+            "A unit of data in the transport layer",
+            "A unit of data in the network layer",
+            "A form of physical transmission",
+            "A wireless protocol"
+          ],
+          "answer": "A unit of data in the network layer",
+          "explanation": "Datagrams are the basic units of data in the network layer."
+        },
+        {
+          "question": "What protocol is used for error reporting in the network layer?",
+          "options": [
+            "TCP",
+            "ICMP",
+            "UDP",
+            "HTTP"
+          ],
+          "answer": "ICMP",
+          "explanation": "ICMP (Internet Control Message Protocol) is used for error reporting and signaling in the network layer."
+        },
+        {
+          "question": "What is the role of the IP protocol in the network layer?",
+          "options": [
+            "Addressing and routing of data",
+            "Encryption of transmitted data",
+            "Managing wireless connections",
+            "Assigning MAC addresses"
+          ],
+          "answer": "Addressing and routing of data",
+          "explanation": "The IP protocol handles addressing and routing datagrams through the network."
+        },
+        {
+          "question": "What does TTL stand for in an IP datagram?",
+          "options": [
+            "Total Transmission Latency",
+            "Time To Live",
+            "Transmission To Layer",
+            "Total Time Lapse"
+          ],
+          "answer": "Time To Live",
+          "explanation": "TTL (Time To Live) indicates how many hops a datagram can traverse before being discarded."
+        },
+        {
+          "question": "Which field in an IP datagram is used for fragmentation and reassembly?",
+          "options": [
+            "TTL",
+            "Fragment Offset",
+            "Protocol",
+            "Header Checksum"
+          ],
+          "answer": "Fragment Offset",
+          "explanation": "The Fragment Offset field is used to indicate the location of a fragment within the original datagram."
+        },
+        {
+          "question": "What is the maximum size of an IP datagram?",
+          "options": [
+            "1500 bytes",
+            "65535 bytes",
+            "512 bytes",
+            "1000 bytes"
+          ],
+          "answer": "65535 bytes",
+          "explanation": "The maximum size of an IP datagram is 65535 bytes."
+        },
+        {
+          "question": "What does NAT stand for?",
+          "options": [
+            "Network Access Transmission",
+            "Network Address Translation",
+            "Network Assigned Traffic",
+            "New Address Technology"
+          ],
+          "answer": "Network Address Translation",
+          "explanation": "NAT (Network Address Translation) is used to map private IP addresses to public IP addresses for internet access."
+        },
+        {
+          "question": "What is the purpose of subnetting?",
+          "options": [
+            "To divide a larger network into smaller, manageable segments",
+            "To encrypt network traffic",
+            "To assign IP addresses",
+            "To route data within a LAN"
+          ],
+          "answer": "To divide a larger network into smaller, manageable segments",
+          "explanation": "Subnetting divides a large network into smaller networks, improving management and efficiency."
+        },
+        {
+          "question": "What is a Class A IP address used for?",
+          "options": [
+            "Small networks",
+            "Very large networks",
+            "Home networks",
+            "Broadcast addresses"
+          ],
+          "answer": "Very large networks",
+          "explanation": "Class A addresses are used for very large networks, providing millions of host addresses."
+        },
+        {
+          "question": "What is a default gateway?",
+          "options": [
+            "A device that encrypts data",
+            "A router that sends data outside the local network",
+            "A switch that manages network traffic",
+            "A protocol used for address resolution"
+          ],
+          "answer": "A router that sends data outside the local network",
+          "explanation": "The default gateway is a router that forwards data to external networks."
+        },
+        {
+          "question": "What does CIDR stand for?",
+          "options": [
+            "Classless Internet Domain Routing",
+            "Classless Inter-Domain Routing",
+            "Classful Internet Domain Routing",
+            "Classful Inter-Domain Routing"
+          ],
+          "answer": "Classless Inter-Domain Routing",
+          "explanation": "CIDR (Classless Inter-Domain Routing) is a method for allocating IP addresses and routing Internet Protocol packets."
+        },
+        {
+          "question": "What is the loopback IP address?",
+          "options": [
+            "192.168.0.1",
+            "127.0.0.1",
+            "10.0.0.1",
+            "255.255.255.255"
+          ],
+          "answer": "127.0.0.1",
+          "explanation": "The loopback address 127.0.0.1 is used by a device to send traffic to itself."
+        },
+        {
+          "question": "Which protocol is responsible for handling datagram fragmentation?",
+          "options": [
+            "ICMP",
+            "IP",
+            "TCP",
+            "ARP"
+          ],
+          "answer": "IP",
+          "explanation": "The IP protocol handles fragmentation and reassembly of datagrams to fit MTU sizes."
+        },
+        {
+          "question": "What is the role of the 'Don't Fragment (DF)' bit in an IP datagram?",
+          "options": [
+            "Prevents the datagram from being fragmented",
+            "Increases the size of the datagram",
+            "Speeds up the transmission",
+            "Reduces the packet's TTL"
+          ],
+          "answer": "Prevents the datagram from being fragmented",
+          "explanation": "The DF bit indicates that the datagram must not be fragmented."
+        },
+        {
+          "question": "What is the size of an IPv4 address?",
+          "options": [
+            "16 bits",
+            "32 bits",
+            "64 bits",
+            "128 bits"
+          ],
+          "answer": "32 bits",
+          "explanation": "An IPv4 address consists of 32 bits."
+        },
+        {
+          "question": "What is the significance of the TTL field in an IP header?",
+          "options": [
+            "It limits the number of hops a datagram can take",
+            "It determines the size of the datagram",
+            "It sets the priority of the datagram",
+            "It identifies the protocol used"
+          ],
+          "answer": "It limits the number of hops a datagram can take",
+          "explanation": "The TTL field prevents datagrams from circulating indefinitely by limiting the number of hops."
+        },
+        {
+          "question": "What is the purpose of the checksum in an IP header?",
+          "options": [
+            "To encrypt the data",
+            "To check for errors in the header",
+            "To compress the header",
+            "To assign a priority to the datagram"
+          ],
+          "answer": "To check for errors in the header",
+          "explanation": "The checksum ensures that no errors occurred during the transmission of the header."
+        },
+        {
+          "question": "What is the maximum transmission unit (MTU)?",
+          "options": [
+            "The smallest size of a datagram that can be transmitted",
+            "The largest size of a datagram that can be transmitted without fragmentation",
+            "The speed of data transmission",
+            "The number of devices on a network"
+          ],
+          "answer": "The largest size of a datagram that can be transmitted without fragmentation",
+          "explanation": "MTU is the largest size of a packet that can be transmitted on a network without fragmentation."
+        },
+        {
+          "question": "What is the role of a router in the network layer?",
+          "options": [
+            "To manage application data",
+            "To forward datagrams between networks",
+            "To assign IP addresses",
+            "To encrypt data"
+          ],
+          "answer": "To forward datagrams between networks",
+          "explanation": "Routers forward datagrams between different networks."
+        },
+        {
+          "question": "What is the difference between routing and forwarding?",
+          "options": [
+            "Routing determines the path, forwarding moves data along the path",
+            "Routing encrypts data, forwarding decrypts data",
+            "Routing manages IP addresses, forwarding manages MAC addresses",
+            "Routing checks for errors, forwarding detects collisions"
+          ],
+          "answer": "Routing determines the path, forwarding moves data along the path",
+          "explanation": "Routing plans the path from source to destination, and forwarding transfers data along that path."
+        },
+        {
+          "question": "Which of the following protocols is used to determine the best path for data to travel across a network?",
+          "options": [
+            "RIP",
+            "DHCP",
+            "DNS",
+            "ICMP"
+          ],
+          "answer": "RIP",
+          "explanation": "Routing Information Protocol (RIP) is used to determine the best path for data to travel across networks."
+        },
+        {
+          "question": "What is the purpose of Network Address Translation (NAT)?",
+          "options": [
+            "To translate private IP addresses into public IP addresses",
+            "To encrypt network traffic",
+            "To manage subnetting",
+            "To assign MAC addresses"
+          ],
+          "answer": "To translate private IP addresses into public IP addresses",
+          "explanation": "NAT translates private IP addresses into public IP addresses, allowing devices within a local network to access the Internet."
+        },
+        {
+          "question": "What does a subnet mask do?",
+          "options": [
+            "Defines the portion of an IP address used for the network",
+            "Encrypts the IP address",
+            "Splits the IP address into MAC addresses",
+            "Identifies the destination address of a packet"
+          ],
+          "answer": "Defines the portion of an IP address used for the network",
+          "explanation": "A subnet mask identifies which part of an IP address is the network portion and which part is the host portion."
+        },
+        {
+          "question": "What is the 'More Fragments (MF)' bit used for in an IP datagram?",
+          "options": [
+            "To indicate that more fragments of the datagram are coming",
+            "To identify the size of the datagram",
+            "To mark the datagram for encryption",
+            "To increase the TTL of the datagram"
+          ],
+          "answer": "To indicate that more fragments of the datagram are coming",
+          "explanation": "The MF bit indicates whether the current datagram is the last fragment or if more fragments will follow."
+        },
+        {
+          "question": "Which class of IP address is used for multicast communication?",
+          "options": [
+            "Class A",
+            "Class B",
+            "Class C",
+            "Class D"
+          ],
+          "answer": "Class D",
+          "explanation": "Class D addresses are reserved for multicast communication."
+        },
+        {
+          "question": "What is the key feature of classless addressing?",
+          "options": [
+            "It does not divide IP addresses into fixed classes",
+            "It uses only public IP addresses",
+            "It requires DHCP for address allocation",
+            "It automatically encrypts data"
+          ],
+          "answer": "It does not divide IP addresses into fixed classes",
+          "explanation": "Classless addressing removes the fixed class system, allowing more flexible allocation of IP addresses."
+        },
+        {
+          "question": "Which of the following addresses is used for broadcasting to all devices in a network?",
+          "options": [
+            "0.0.0.0",
+            "255.255.255.255",
+            "127.0.0.1",
+            "10.0.0.1"
+          ],
+          "answer": "255.255.255.255",
+          "explanation": "The address 255.255.255.255 is used to broadcast messages to all devices on a local network."
+        }
+      ]
+    },
+    {
+      "title": "Data Communication and Networks - Midterm Exam Paper 1",
+      "icon": "./assets/images/icon-networking.svg",
+      "questions": [
+        {
+          "question": "What is the main function of the Network Layer?",
+          "options": [
+            "To manage physical transmission of data",
+            "To deliver data packets from one network to another",
+            "To encrypt transmitted data",
+            "To manage end-user connections"
+          ],
+          "answer": "To deliver data packets from one network to another",
+          "explanation": "The Network Layer is responsible for delivering data packets across networks."
+        },
+        {
+          "question": "What is a subnet mask used for?",
+          "options": [
+            "To define the host and network portion of an IP address",
+            "To assign IP addresses to devices",
+            "To manage traffic flow in networks",
+            "To ensure encryption in data transmission"
+          ],
+          "answer": "To define the host and network portion of an IP address",
+          "explanation": "Subnet masks help identify which part of an IP address is allocated to the network and which to the host."
+        },
+        {
+          "question": "What does the 'Time to Live' (TTL) field in an IP packet represent?",
+          "options": [
+            "The time required for packet delivery",
+            "The maximum number of hops a packet can take",
+            "The time delay in network transmission",
+            "The priority level of the packet"
+          ],
+          "answer": "The maximum number of hops a packet can take",
+          "explanation": "TTL ensures that packets do not circulate endlessly in the network."
+        },
+        {
+          "question": "What is the primary role of a router?",
+          "options": [
+            "To manage local device connections",
+            "To forward data packets between different networks",
+            "To assign IP addresses",
+            "To detect collisions in the network"
+          ],
+          "answer": "To forward data packets between different networks",
+          "explanation": "Routers forward data between different networks by examining the destination IP address."
+        },
+        {
+          "question": "What does CSMA/CD stand for?",
+          "options": [
+            "Carrier Sense Multiple Access with Collision Detection",
+            "Carrier Sense Multiple Access with Channel Division",
+            "Centralized System for Media Allocation",
+            "Collision Sensing Media Algorithm"
+          ],
+          "answer": "Carrier Sense Multiple Access with Collision Detection",
+          "explanation": "CSMA/CD is a network protocol that helps detect collisions in Ethernet networks and manage retransmission."
+        },
+        {
+          "question": "Which IP address class provides a default subnet mask of 255.0.0.0?",
+          "options": [
+            "Class A",
+            "Class B",
+            "Class C",
+            "Class D"
+          ],
+          "answer": "Class A",
+          "explanation": "Class A addresses have a default subnet mask of 255.0.0.0 and are used for large networks."
+        },
+        {
+          "question": "What is a VLAN?",
+          "options": [
+            "Virtual Local Area Network",
+            "Very Large Area Network",
+            "Virtualized Link Address Network",
+            "Variable Local Access Node"
+          ],
+          "answer": "Virtual Local Area Network",
+          "explanation": "A VLAN is a logical segmentation of a network, allowing for better management of devices."
+        },
+        {
+          "question": "Which topology has all devices connected to a single backbone?",
+          "options": [
+            "Bus topology",
+            "Ring topology",
+            "Star topology",
+            "Mesh topology"
+          ],
+          "answer": "Bus topology",
+          "explanation": "In a bus topology, all devices are connected along a single backbone."
+        },
+        {
+          "question": "What does ARP stand for?",
+          "options": [
+            "Address Resolution Protocol",
+            "Automatic Routing Protocol",
+            "Access Request Packet",
+            "Application Resolution Path"
+          ],
+          "answer": "Address Resolution Protocol",
+          "explanation": "ARP is used to map an IP address to a physical MAC address in a local network."
+        },
+        {
+          "question": "Which device operates at both the Data Link and Network layers of the OSI model?",
+          "options": [
+            "Router",
+            "Switch",
+            "Hub",
+            "Bridge"
+          ],
+          "answer": "Router",
+          "explanation": "Routers operate at the Data Link and Network layers, enabling them to forward data across different networks."
+        },
+        {
+          "question": "What is the purpose of the 'ACK' in TCP communication?",
+          "options": [
+            "To establish a connection",
+            "To acknowledge the receipt of data",
+            "To encrypt data",
+            "To initiate error correction"
+          ],
+          "answer": "To acknowledge the receipt of data",
+          "explanation": "TCP uses ACK packets to confirm the successful delivery of data."
+        },
+        {
+          "question": "In CIDR notation, what does the suffix '/24' represent?",
+          "options": [
+            "A network with 24 available IP addresses",
+            "A subnet with 255.255.255.0 as the subnet mask",
+            "A Class A address range",
+            "A default gateway configuration"
+          ],
+          "answer": "A subnet with 255.255.255.0 as the subnet mask",
+          "explanation": "The '/24' in CIDR notation means that 24 bits are used for the network portion of the address."
+        },
+        {
+          "question": "What does NAT stand for?",
+          "options": [
+            "Network Address Translation",
+            "Network Access Transmission",
+            "New Addressing Technology",
+            "Network Allocation Table"
+          ],
+          "answer": "Network Address Translation",
+          "explanation": "NAT is used to translate private IP addresses to a public IP address, allowing multiple devices to share a single public IP."
+        },
+        {
+          "question": "What is the maximum length of a standard Ethernet cable (Cat5e)?",
+          "options": [
+            "100 meters",
+            "50 meters",
+            "150 meters",
+            "200 meters"
+          ],
+          "answer": "100 meters",
+          "explanation": "Standard Ethernet cables can extend up to 100 meters without significant signal loss."
+        }
+      ]
+    },
+    {
+      "title": "Data Communication and Networks - Midterm Exam Paper 2",
+      "icon": "./assets/images/icon-networking.svg",
+      "questions": [
+        {
+          "question": "What is the default subnet mask for a Class C IP address?",
+          "options": [
+            "255.255.255.0",
+            "255.0.0.0",
+            "255.255.0.0",
+            "255.255.255.255"
+          ],
+          "answer": "255.255.255.0",
+          "explanation": "Class C addresses use the subnet mask 255.255.255.0 by default."
+        },
+        {
+          "question": "What is the function of ICMP?",
+          "options": [
+            "To establish reliable data transmission",
+            "To report errors and diagnostics",
+            "To encrypt network packets",
+            "To manage routing tables"
+          ],
+          "answer": "To report errors and diagnostics",
+          "explanation": "ICMP is used for error reporting and diagnostics in IP networks."
+        },
+        {
+          "question": "What is a MAC address?",
+          "options": [
+            "A unique identifier for network devices at the Data Link layer",
+            "An IP address assigned dynamically by the router",
+            "A protocol used for encrypting data",
+            "A routing algorithm for managing traffic"
+          ],
+          "answer": "A unique identifier for network devices at the Data Link layer",
+          "explanation": "MAC addresses are unique to each network interface card (NIC) and are used for communication at the Data Link layer."
+        },
+        {
+          "question": "What is the maximum size of an IPv4 packet?",
+          "options": [
+            "65535 bytes",
+            "1500 bytes",
+            "4096 bytes",
+            "1024 bytes"
+          ],
+          "answer": "65535 bytes",
+          "explanation": "The maximum size of an IPv4 packet is 65535 bytes, including the header."
+        },
+        {
+          "question": "Which device connects multiple networks and routes packets between them?",
+          "options": [
+            "Switch",
+            "Router",
+            "Hub",
+            "Repeater"
+          ],
+          "answer": "Router",
+          "explanation": "Routers are responsible for forwarding data between different networks."
+        },
+        {
+          "question": "What is the role of DNS in a network?",
+          "options": [
+            "To resolve domain names into IP addresses",
+            "To allocate MAC addresses",
+            "To manage encryption keys",
+            "To handle error messages"
+          ],
+          "answer": "To resolve domain names into IP addresses",
+          "explanation": "DNS translates human-readable domain names into IP addresses."
+        },
+        {
+          "question": "Which protocol is used to automatically assign IP addresses to devices on a network?",
+          "options": [
+            "DNS",
+            "DHCP",
+            "TCP",
+            "HTTP"
+          ],
+          "answer": "DHCP",
+          "explanation": "DHCP dynamically assigns IP addresses to devices in a network."
+        },
+        {
+          "question": "What is a 'collision domain' in networking?",
+          "options": [
+            "A network segment where data packets can collide",
+            "A domain where IP addresses are assigned",
+            "A range of IP addresses used in a network",
+            "A special type of encrypted domain"
+          ],
+          "answer": "A network segment where data packets can collide",
+          "explanation": "In a collision domain, only one device can transmit data at a time to avoid collisions."
+        },
+        {
+          "question": "Which network device filters and forwards traffic based on MAC addresses?",
+          "options": [
+            "Switch",
+            "Router",
+            "Hub",
+            "Repeater"
+          ],
+          "answer": "Switch",
+          "explanation": "Switches operate at the Data Link layer and forward frames based on MAC addresses."
+        },
+        {
+          "question": "What is the main characteristic of a ring topology?",
+          "options": [
+            "Data travels in one direction around a loop",
+            "All devices are connected to a central hub",
+            "Each device is connected directly to every other device",
+            "Devices can transmit data simultaneously"
+          ],
+          "answer": "Data travels in one direction around a loop",
+          "explanation": "In a ring topology, data travels in a loop and reaches all devices in sequence."
+        },
+        {
+          "question": "Which protocol ensures error-free delivery in network communication?",
+          "options": [
+            "TCP",
+            "UDP",
+            "ICMP",
+            "ARP"
+          ],
+          "answer": "TCP",
+          "explanation": "TCP is a connection-oriented protocol that guarantees error-free data transmission."
+        },
+        {
+          "question": "What is the primary purpose of NAT?",
+          "options": [
+            "To translate private IP addresses to public IP addresses",
+            "To manage network encryption",
+            "To resolve domain names into IP addresses",
+            "To ensure error correction in data packets"
+          ],
+          "answer": "To translate private IP addresses to public IP addresses",
+          "explanation": "NAT allows multiple devices to share a single public IP address for Internet access."
+        },
+        {
+          "question": "What is the default port number for HTTP?",
+          "options": [
+            "80",
+            "443",
+            "25",
+            "110"
+          ],
+          "answer": "80",
+          "explanation": "Port 80 is the default port for HTTP traffic."
+        },
+        {
+          "question": "Which device amplifies and retransmits signals in a network?",
+          "options": [
+            "Repeater",
+            "Router",
+            "Switch",
+            "Hub"
+          ],
+          "answer": "Repeater",
+          "explanation": "A repeater amplifies signals to extend the distance they can travel."
+        }
+      ]
+    }
+  ]
+}
